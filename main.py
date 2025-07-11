@@ -1,29 +1,34 @@
-import requests
-from requests.auth import HTTPDigestAuth
+import json
+from typing import Any, Dict
 
-from PIL import Image
-import numpy as np
+from searchCamera import fetching_image, is_full_black
 
-print("Running")
-
-def fetching_image(camera_channel):
-    r = requests.get(f'http://192.168.12.40/cgi-bin/snapshot.cgi?channel={camera_channel}&type=0', auth=HTTPDigestAuth('admin', 'V0xd0br4s1l'))
-    with open("snapshot.jpg", "wb") as f:
-        f.write(r.content)
+def getJSON(json_path):
+    dados = None
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            dados = json.load(f)
+    except Exception as e:
+        raise Exception("Erro ao pegar o arquivo JSON: ", e)
+    return dados
     
+def formating_dict_to_arr(dict):
+    dvr_arr = []
+    for key, value in dict.items():
+        is_standard = value.get("standard")
+        if is_standard:
+            for dvr_name, ip in value.items():
+                if dvr_name == "standard":
+                    continue
+                dvr_arr.append([key, dvr_name, ip])
+        else:
+            for dvr_name, dvr_info in value.items():
+                if dvr_name == "standard":
+                    continue
+                dvr_arr.append([key, dvr_name, dvr_info['ip'], dvr_info['user'], dvr_info['password']])
+    return dvr_arr
 
-def is_full_black(image_path):
-    img = Image.open(image_path).convert('L') # converting for gray scale
-    arr = np.array(img)
-    std = np.std(arr) # desvio
-    return std <= 10
-
-for i in range(18):
-    if i == 0:
-        continue
-    fetching_image(i)
-    print(f'{i} - {is_full_black('./snapshot.jpg')}')
-
-# fetching_image()
-
-print("Finishing")
+dvr_arr = formating_dict_to_arr(getJSON("./dvrs.json"))
+for dvrs in dvr_arr:
+    fetching_image(dvr_arr[2], )
+    

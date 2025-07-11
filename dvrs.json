@@ -1,0 +1,298 @@
+{
+    "Angra dos reis": {
+        "standard": false,
+        "DVR Guarita": {
+            "user":"admin",
+            "password":"V0xd0br4s1l",
+            "ip": "192.168.45.40"
+        },
+        "DVR Torre H1/H2": {
+            "user":"admin",
+            "password":"V0xd0br4s1l",
+            "ip":"192.168.45.41"
+        },
+        "DVR Torre G1/G2": {
+            "user":"admin",
+            "password":"V0xd0br4s1l",
+            "ip":"192.168.45.42"
+        }
+    },
+    "Bela Alvorada":{
+        "standard": false,
+        "DVR Garagem":
+        {
+            "user":"admin",
+            "password": "V0xd0br4s1l",
+            "ip":"192.168.17.21"
+        },
+        
+        "DVR Torre 1": {
+            "user":"admin",
+            "password": "V0xd0br4s1l",
+            "ip":"192.168.17.22"
+        },
+        "DVR Torre 2":{
+            "user":"admin",
+            "password": "V0xd0br4s1l",
+            "ip":"192.168.17.23"
+        },
+        "DVR Intelbrás":{
+            "user":"admin",
+            "password": "V0xd0br4s1l",
+            "ip":"192.168.17.24"
+        } 
+    },
+    "Bella Vitta":{
+        "standard": true,
+        "MHDX1116 Intelbras": "192.168.14.40"
+    },
+    "Blend":{
+        "standard": true,
+        "DVR": "192.168.24.40"
+    },
+    "Bola de neve":{
+        "standard":true,
+        "DVR 1":"192.168.26.40",
+        "DVR 2":"192.168.26.41",
+        "DVR 3":"192.168.26.42"
+    },
+    "Brasilia":{
+        "standard":true,
+        "DVR": "192.168.23.40"
+    },
+    "Carybé": {
+        "standard":true,
+        "DVR": "192.168.16.40"
+    },
+    "Chopin":{
+        "standard": true,
+        "DVR": "192.168.35.40"
+    },
+    "Costa Verde":{
+        "standard": true,
+        "DVR": "192.168.35.40"
+    },
+    "Crixa 1":{
+        "standard":true,
+       "DVR": "192.168.46.40"
+    },
+    "Crixa 2":{
+        "standard":true,
+        "DVR":"192.168.18.40"
+    },
+    "Crixa 4":{
+        "standard":true,
+        "DVR Guarita": "192.168.30.41",
+        "DVR Bloco O": "192.168.30.42",
+        "DVR Bloco I": "192.168.30.43",
+        "DVR Bloco F": "192.168.30.44",
+        "DVR Adm": "192.168.30.45"
+    },
+    "Croxa 6": {
+        "standard":true,
+        "DVR Principal": "192.168.15.40",
+        "DVR Bloco F": "192.168.15.41",
+        "DVR Bloco O": "192.168.15.42",
+        "DVR Bloco G": "192.168.15.43"
+    },
+    "Dona Elvira": {
+        "standard": false,
+        "DVR": {
+            "password": "Vox",
+            "user":"V0xd0br4s1l",    
+            "ip":"192.168.40.40"
+        },
+        "DVR 2": {
+            "password": "",
+            "user":"",    
+            "ip":"192.168.40.41"
+        }
+    },
+    "Firenze": {
+        "standard":false,
+        "DVR": {
+            "user":"admin",
+            "password": "V0xd0b",
+            "ip": "192.168.38.40"
+        }
+    },
+     "Gabrielle": {
+        "standard": true,
+        "DVR1": "192.168.41.40",
+        "DVR2": "192.168.41.41"
+    },
+    "Ilha de Pascoa":{
+        "standard": false,
+        "DVR Andares": {
+            "user":"admin",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.47.40"
+        },
+        "DVR Principal": {
+            "user":"vox",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.47.41"
+        },
+        "DVR Interno": {
+            "user":"admin",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.47.42"
+        }
+    },
+    "Maria Aparecida":{
+        "standard": false,
+        "DVR1": {
+            "user":"maxfon",
+            "password": "302010",
+            "ip": "192.168.37.40"
+        },
+        "DVR2": {
+            "user":"maxfon",
+            "password": "302010",
+            "ip": "192.168.37.41"
+        },
+        "DVR3": {
+            "user":"admin",
+            "password": "wvtec21#",
+            "ip": "192.168.37.42"
+        }
+    },
+    "Montserrat":{
+        "standard":true,
+        "DV1": "192.168.34.40",
+        "DV2": "192.168.34.41"
+    },
+    "Odilon Miranda":{
+        "standard":false,
+        "DVR":{
+            "user": "vox",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.28.40"
+        }
+    },
+    "Oliveira Bragança":{
+        "standard":false,
+        "DVR":{
+            "user":"admin",
+            "password": "wvtec21#",
+            "ip": "192.168.27.40"
+        }
+    },
+    "Parque das Águas":{
+        "standard": true,
+        "DVR": "192.168.42.40",
+        "NVR": "192.168.42.41"
+    },
+    "Saldanha da Gama":{
+        "standard":true,
+        "DVR1": "192.168.11.40",
+        "DVR2": "192.168.11.41",
+        "DVR3": "192.168.11.42",
+        "DVR4": "192.168.11.43"
+    },
+    "Sandro Botticelli":{
+        "standard": false,
+        "DVR": {
+            "user": "admin",
+            "password": "wvtec21#",
+            "ip": "192.168.19.42"
+        }
+    },
+    "SH Formas":{
+        "standard":true,
+        "NVD": "192.168.32.40",
+        "DVR": "192.168.32.41"
+    },
+    "SQO (Super Quadra Brasília)":{
+        "standard":true,
+        "DVR1": "192.168.77.40",
+        "DVR2": "192.168.77.42"
+    },
+    "Supremo":{
+        "standard":true,
+        "DVR Guarita": "192.168.21.40"
+
+    },
+    "Terrazzo Vivere":{
+        "standard": true,
+        "DVR Principal":"192.168.48.40",
+        "DVR2": "192.168.48.41",
+        "DVR3": "192.168.48.42"
+    },
+    "Park Jequitiba":{
+        "standard": true,
+        "DVR Principal": "192.168.49.40"
+    },
+    "Villa Paraíso":{
+        "standard": false,
+        "DVR Guarita": {
+            "user":"admin",
+            "password": "Daniel2023",
+            "ip": "192.168.13.40"
+        },
+        "DVR Rua": {
+            "user":"admin",
+            "password": "Daniel2023",
+            "ip": "192.168.13.41"
+        }
+    },
+    "Vintage 303":{
+        "standard": false,
+        "DVR1": {
+            "user":"vox",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.39.19"
+        },
+        "DVR2": {
+            "user":"vox",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.39.20"
+        },
+        "DVR3": {
+            "user":"vox",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.39.21"
+        },
+        "DVR4": {
+            "user":"vox",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.39.22"
+        }
+    },
+    "Vivaldi Moreira":{
+        "standard": false,
+        "DVR Principal":{
+            "user": "admin",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.22.40"
+        },
+        "DVR1":{
+            "user": "vox",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.22.41"
+        },
+        "DVR2":{
+            "user": "vox",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.22.42"
+        },
+        "DVR3":{
+            "user": "vox",
+            "password": "V0xd0br4s1l",
+            "ip": "192.168.22.43"
+        }
+    },
+    "IBVS":{
+        "standard": false,
+        "DVR1": {
+            "user":"admin",
+            "password": "ibvs2024@",
+            "ip":"192.168.50.40"
+        },
+        "DVR2": {
+            "user":"admin",
+            "password": "ibvs2024@",
+            "ip":"192.168.50.41"
+        }
+    }
+}
