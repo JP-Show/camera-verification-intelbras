@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.3">
+  <diagram name="Página-1" id="dOXyppHc3ATZo316XpuO">
+    <mxGraphModel dx="2102" dy="1327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-1" target="TtvhlXP4ZrSIEbR8F5tY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-1" value="JSON com dados do DVR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-3" target="TtvhlXP4ZrSIEbR8F5tY-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-3" value="Processa os dados" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-5" target="TtvhlXP4ZrSIEbR8F5tY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-5" value="Faz a requisição do próximo DVR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-6" target="TtvhlXP4ZrSIEbR8F5tY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-6" value="Retornar a imagem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-9" target="TtvhlXP4ZrSIEbR8F5tY-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="320" />
+              <mxPoint x="444" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-9" value="Retorna uma exception" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-13" target="TtvhlXP4ZrSIEbR8F5tY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-13" value="Salva no computador" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-15" target="TtvhlXP4ZrSIEbR8F5tY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-15" target="TtvhlXP4ZrSIEbR8F5tY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-15" target="TtvhlXP4ZrSIEbR8F5tY-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="444" y="420" />
+              <mxPoint x="510" y="420" />
+              <mxPoint x="510" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-15" value="Busca a camera um por um até acabar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-21" target="TtvhlXP4ZrSIEbR8F5tY-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-21" target="TtvhlXP4ZrSIEbR8F5tY-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-21" value="verifica se a imagem tem pouca variação de cores" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-24" value="Se sim, imagem aparenta ter algum problema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-26" target="TtvhlXP4ZrSIEbR8F5tY-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-26" value="Processa os dados da imagem, nome do condominio e ip do dvr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-28" target="TtvhlXP4ZrSIEbR8F5tY-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-28" target="TtvhlXP4ZrSIEbR8F5tY-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-28" value="Verifica se já tem a mesma imagem do dvr e numero da camera no notion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-29" target="TtvhlXP4ZrSIEbR8F5tY-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="1070" />
+              <mxPoint x="40" y="320" />
+              <mxPoint x="354" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-29" value="se sim, não faz nada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-33" target="TtvhlXP4ZrSIEbR8F5tY-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="1130" />
+              <mxPoint x="80" y="1130" />
+              <mxPoint x="80" y="320" />
+              <mxPoint x="384" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-33" value="salva no notion na tabela do dvr do condominio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TtvhlXP4ZrSIEbR8F5tY-36" target="TtvhlXP4ZrSIEbR8F5tY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtvhlXP4ZrSIEbR8F5tY-36" value="Se não, passa para próxima" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
